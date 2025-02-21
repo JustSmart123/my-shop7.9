@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "dependencies": {
+    "papaparse": "^5.5.2",
+    "vue-router": "^4.5.0"
+  }
+}
