@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router';
 import AdminDashboard from './pages/AdminDashboard.vue';
 import ManageProducts from './pages/ManageProducts.vue';
 import ManageReviews from './pages/ManageReviews.vue';
+import LoginPage from './pages/LoginPage.vue';
+import AdminPanel from './pages/AdminPanel.vue';
 
 const routes = [
   {
@@ -20,6 +22,9 @@ const routes = [
       { path: 'reviews', component: ManageReviews },
     ],
   },
+  // Додаємо окремий маршрут для сторінки авторизації
+  { path: '/login', component: LoginPage},
+  { path: '/profile', component: AdminPanel},
 ];
 
 const router = createRouter({

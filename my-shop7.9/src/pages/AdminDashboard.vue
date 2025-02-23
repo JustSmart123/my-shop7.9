@@ -3,6 +3,7 @@
     <nav>
       <router-link to="/admin/products" active-class="active-link">Головна</router-link>
       <router-link to="/admin/reviews" active-class="active-link">Відгуки</router-link>
+      <router-link to="/login" active-class="active-link">Особистий кабінет</router-link>
     </nav>
 
     <!-- Контент адміністративної панелі -->
