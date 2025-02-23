@@ -3,7 +3,7 @@ import AdminDashboard from './pages/AdminDashboard.vue';
 import ManageProducts from './pages/ManageProducts.vue';
 import ManageReviews from './pages/ManageReviews.vue';
 import LoginPage from './pages/LoginPage.vue';
-import AdminPanel from './pages/AdminPanel.vue';
+import ProfilePage from './pages/ProfilePage.vue';
 
 const routes = [
   {
@@ -24,7 +24,7 @@ const routes = [
   },
   // Додаємо окремий маршрут для сторінки авторизації
   { path: '/login', component: LoginPage},
-  { path: '/profile', component: AdminPanel},
+  { path: '/profile', component: ProfilePage},
 ];
 
 const router = createRouter({
